@@ -1,0 +1,15 @@
+local args = {
+    [1] = workspace.Entities:FindFirstChild("Hard Pablo").Humanoid,
+    [2] = CFrame.new(131.94223022460938, 146.58934020996094, 187.32752990722656) * CFrame.Angles(1.3515009880065918, -0.11825573444366455, 0.8675026297569275),
+    [3] = 1000000,
+    [4] = 0.25,
+    [5] = Vector3.new(47.1115837097168, -0.3003464639186859, 16.74540138244629),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://386946017",
+    [10] = 1,
+    [11] = 0.9
+}
+
+game:GetService("ReplicatedStorage").BleedDamage:FireServer(unpack(args))
